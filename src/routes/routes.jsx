@@ -11,42 +11,42 @@ import References from "./../pages/references";
 import Contact from "./../pages/contact";
 
 const router = createBrowserRouter([
-   {
-      path: "/",
-      element: <HomePage />,
-   },
-   {
-      path: "/train",
-      element: <TrainPage />,
-   },
-   {
-      path: "/about-me",
-      element: <AboutMe />,
-   },
-   {
-      path: "/train/:slug",
-      element: <SingleTrain />,
-   },
-   {
-      path: "/projects",
-      element: <Projects />,
-   },
-   {
-      path: "/projects/:slug",
-      element: <SingleProject />,
-   },
-   {
-      path: "/skils",
-      element: <Skils />,
-   },
-   {
-      path: "/references",
-      element: <References />,
-   },
-   {
-      path: "/contact",
-      element: <Contact />,
-   },
+  {
+    path: "/resume",
+    element: <HomePage />,
+  },
+  {
+    path: "/train",
+    element: <TrainPage />,
+  },
+  {
+    path: "/about-me",
+    element: <AboutMe />,
+  },
+  {
+    path: "/train/:slug",
+    element: <SingleTrain />,
+  },
+  {
+    path: "/projects",
+    element: <Projects />,
+  },
+  {
+    path: "/projects/:slug",
+    element: <SingleProject />,
+  },
+  {
+    path: "/skils",
+    element: <Skils />,
+  },
+  {
+    path: "/references",
+    element: <References />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
 ]);
 
 export default router;

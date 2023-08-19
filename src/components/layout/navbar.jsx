@@ -4,7 +4,7 @@ import Logo from "../shared/logo";
 import Footer from "./footer";
 
 const navs = [
-  { id: 1, title: "Master", pathname: "/" },
+  { id: 1, title: "Master", pathname: "/resume" },
   { id: 2, title: "Aboute Me", pathname: "/about-me" },
   { id: 3, title: "Skils", pathname: "/skils" },
   { id: 4, title: "Train", pathname: "/train" },
