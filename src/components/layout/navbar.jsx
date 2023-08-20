@@ -5,12 +5,12 @@ import Footer from "./footer";
 
 const navs = [
   { id: 1, title: "Master", pathname: "/resume" },
-  { id: 2, title: "Aboute Me", pathname: "/about-me" },
-  { id: 3, title: "Skils", pathname: "/skils" },
-  { id: 4, title: "Train", pathname: "/train" },
-  { id: 5, title: "Projects", pathname: "/projects" },
-  { id: 6, title: "References", pathname: "/references" },
-  { id: 7, title: "Contact", pathname: "/contact" },
+  { id: 2, title: "Aboute Me", pathname: "/resume/about-me" },
+  { id: 3, title: "Skils", pathname: "/resume/skils" },
+  { id: 4, title: "Train", pathname: "/resume/train" },
+  { id: 5, title: "Projects", pathname: "/resume/projects" },
+  { id: 6, title: "References", pathname: "/resume/references" },
+  { id: 7, title: "Contact", pathname: "/resume/contact" },
   // { id: 8, title: "Aboute This Project", pathname: "/about-this-project" },
 ];
 

@@ -136,7 +136,7 @@ body {
   /* transform: scale(1.1); */
 }
 .icons img {
-  margin: 0 5rem;
+  margin: 0 4rem;
   display: block;
 }
 .bb {
@@ -199,7 +199,9 @@ body {
   border-top: 4px solid bisque;
   border-bottom: 4px solid bisque;
   border-left: 4px solid bisque;
-  border-radius: 10px 0 0 10px;
+  border-right: 4px solid bisque;
+
+  border-radius: 10px;
 }
 .hamurger {
   width: 30px;

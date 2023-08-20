@@ -56,7 +56,7 @@ const Master = () => {
         <div className="hamurger hamurger-2"></div>
       </div>
       <div className="  grid grid-cols-12 items-center ">
-        <div className="  col-span-12 md:col-span-7 pt-8 md:pt-0 md:h-screen flex flex-col items-center justify-evenly">
+        <div className="  col-span-12 md:col-span-7 pt-8 md:mt-12  md:pt-0 md:h-screen flex flex-col items-center justify-evenl">
           <div
             className={
               !showMenue
@@ -65,43 +65,43 @@ const Master = () => {
             }
           >
             <Link
-              to="/train"
+              to="/resume/train"
               className=" flex justify-center items-center text-gray-600 text-xl hover:scale-105 transition-all"
             >
               <div className="flex items-end">
                 <span>Train</span>
-                <HiOutlineLightBulb className="text-3xl" />
+                <HiOutlineLightBulb className="text-xl" />
               </div>
             </Link>
             <Link
-              to="/projects"
+              to="/resume/projects"
               className=" flex justify-center items-center text-gray-600 text-xl hover:scale-105 transition-all"
             >
               <div className="flex  items-end">
                 <span>Project</span>
-                <HiOutlineDocumentCheck className="text-3xl" />
+                <HiOutlineDocumentCheck className="text-xl" />
               </div>
             </Link>
             <Link
-              to="/skils"
+              to="/resume/skils"
               className=" flex justify-center items-center text-gray-600 text-xl hover:scale-105 transition-all"
             >
               <div className="flex  items-end">
                 <span>Skils</span>
-                <HiOutlinePuzzlePiece className="text-3xl" />
+                <HiOutlinePuzzlePiece className="text-xl" />
               </div>
             </Link>
             <Link
-              to="/about-me"
+              to="/resume/about-me"
               className=" flex justify-center items-center text-gray-600 text-xl hover:scale-105 transition-all"
             >
               <div className="flex  items-end">
                 <span>About Me</span>
-                <HiOutlineFingerPrint className="text-3xl" />
+                <HiOutlineFingerPrint className="text-xl" />
               </div>
             </Link>
           </div>
-          <div className="text-center">
+          <div className="text-center md:mt-28">
             <p className="text-4xl md:text-3xl font-jadid   text-gray-700 dark:text-gray-200 ">
               Hi , I am
             </p>
@@ -128,43 +128,43 @@ const Master = () => {
           </div>
         </div>
         <div className="  col-span-12 md:col-span-5 opacity-90   h-screen ">
-          <div className="p-12">
-            <Lottie options={defaultOptions} height={300} />
+          <div className="p-8">
+            <Lottie options={defaultOptions} height={250} width={300} />
           </div>
-          <div className="flex border-logo flex-nowrap mx-auto   bb overflow-hidden px-8  opacity-100">
-            <div className="flex flex-nowrap left-0  justify-center  py-12 items-center icons animate-marquee-infinite">
+          <div className="flex w-4/5 border-logo flex-nowrap mx-auto mt-10  bb overflow-hidden px-  opacity-100">
+            <div className="flex flex-nowrap left-0  justify-center  py-4 items-center icons animate-marquee-infinite">
               <div>
-                <img src={reactIcon} alt="react" width={80} />
+                <img src={reactIcon} alt="react" width={40} />
               </div>
               <div>
-                <img src={nextIcon} alt="" width={80} />
+                <img src={nextIcon} alt="" width={40} />
               </div>
               <div>
-                <img src={typescriptIcon} alt="" width={80} />
+                <img src={typescriptIcon} alt="" width={40} />
               </div>
               <div>
-                <img src={nodeIcon} alt="" width={80} className="  ff " />
+                <img src={nodeIcon} alt="" width={40} className="  ff " />
               </div>
               <div className="">
-                <img src={tailwindIcon} alt="" width={80} />
+                <img src={tailwindIcon} alt="" width={40} />
               </div>
             </div>
             {/* sdfsf */}
-            <div className="flex flex-nowrap left-0  justify-center  py-12  items-center icons animate-marquee2-infinite">
+            <div className="flex flex-nowrap left-0  justify-center  py-6  items-center icons animate-marquee2-infinite">
               <div>
-                <img src={reactIcon} alt="react" width={80} />
+                <img src={reactIcon} alt="react" width={40} />
               </div>
               <div>
-                <img src={nextIcon} alt="" width={80} />
+                <img src={nextIcon} alt="" width={40} />
               </div>
               <div>
-                <img src={typescriptIcon} alt="" width={80} />
+                <img src={typescriptIcon} alt="" width={40} />
               </div>
               <div>
-                <img src={nodeIcon} alt="" width={80} className="  ff " />
+                <img src={nodeIcon} alt="" width={40} className="  ff " />
               </div>
               <div className="">
-                <img src={tailwindIcon} alt="" width={80} />
+                <img src={tailwindIcon} alt="" width={40} />
               </div>
             </div>
           </div>
